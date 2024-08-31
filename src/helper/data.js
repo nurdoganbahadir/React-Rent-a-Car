@@ -65,7 +65,7 @@ const data = [
     model: "Fiorino",
     fuel: "diesel",
     gear: "manuel",
-    img: "https://www.donanimhaber.com/cache-v2/?t=20230923203018&width=-1&text=0&path=https://www.donanimhaber.com/images/images/haber/169081/fiat-fiorino-nun-100-yil-ozel-seri-si-satisa-sunuldu169081_0.jpg",
+    img: "https://seyyahotokiralama.com/wp-content/uploads/2018/08/Fiat-Fiorino-2016-white.jpg",
     insurance: "yok",
     year: "2018",
     info: "Ekonomik aile aracı, az yakar, çok kaçar.",
