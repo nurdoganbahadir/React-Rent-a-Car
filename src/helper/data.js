@@ -1,4 +1,4 @@
-export const data = [
+const data = [
   {
     id: 1,
     brand: "Peugeot",
@@ -8,6 +8,7 @@ export const data = [
     img: "https://www.ayintapotokiralama.com/wp-content/uploads/2024/02/Peugeot-301-Kiralamaa.png",
     insurance: "no",
     year: "2017",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const data = [
     img: "https://ilkalternatif.com/wp-content/uploads/2020/03/citroen-c-elysee-736x414.jpg",
     insurance: "no",
     year: "2017",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const data = [
     img: "https://ilkalternatif.com/wp-content/uploads/2020/03/citroen-c-elysee-736x414.jpg",
     insurance: "yes",
     year: "2020",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const data = [
     img: "https://www.interportrentacar.com/tema/genel/uploads/araclar/fiat_megane.jpg",
     insurance: "yes",
     year: "2020",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const data = [
     img: "https://www.donanimhaber.com/cache-v2/?t=20230923203018&width=-1&text=0&path=https://www.donanimhaber.com/images/images/haber/169081/fiat-fiorino-nun-100-yil-ozel-seri-si-satisa-sunuldu169081_0.jpg",
     insurance: "yes",
     year: "2020",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const data = [
     img: "https://www.donanimhaber.com/cache-v2/?t=20230923203018&width=-1&text=0&path=https://www.donanimhaber.com/images/images/haber/169081/fiat-fiorino-nun-100-yil-ozel-seri-si-satisa-sunuldu169081_0.jpg",
     insurance: "no",
     year: "2018",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const data = [
     img: "https://www.citroen.com.tr/content/dam/citroen/master/b2c/models/new-c3/visualizer/front-view/Citroen_C3_0MP00NWP_BlancBanquise_FR_1280_720.png",
     insurance: "yes",
     year: "2017",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
   {
     id: 8,
@@ -78,5 +85,8 @@ export const data = [
     img: "https://www.bakfilo.com/wp-content/uploads/2024/07/35.png",
     insurance: "yes",
     year: "2021",
+    info: "Ekonomik aile aracı, az yakar, çok kaçar.",
   },
 ];
+
+export default data;
