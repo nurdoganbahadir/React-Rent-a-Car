@@ -1,3 +1,5 @@
+![TNY Rent a Car](./rent-a-car.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
