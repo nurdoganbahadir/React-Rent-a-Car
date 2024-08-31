@@ -13,7 +13,7 @@ const HomePage = () => {
       <Container>
         <Row className="my-5 g-4">
           {data.map((item) => (
-            <Main item={item} />
+            <Main item={item} key={item.id} />
           ))}
         </Row>
       </Container>
