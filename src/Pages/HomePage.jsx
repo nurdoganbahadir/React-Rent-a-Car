@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import data from "../helper/data";
 import { useState } from "react";
+import "./home.css";
 
 const HomePage = () => {
   const [search, setSearch] = useState("");
@@ -17,10 +18,10 @@ const HomePage = () => {
   return (
     <>
       <Header setSearch={setSearch} />
-      <Container>
+      <Container className="main-container">
         <Row className="my-5 g-4">
           {filteredCars.map((item) => (
-            <Main item={item} key={item.id} />
+            <Main item={item} key={item.id}  />
           ))}
         </Row>
       </Container>
