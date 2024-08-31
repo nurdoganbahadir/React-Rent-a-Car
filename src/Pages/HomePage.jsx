@@ -1,16 +1,18 @@
 import React from "react";
 import Header from "../components/Header/Header";
-
 import Footer from "../components/Footer/Footer";
-import Main from "../components/Main/Main.jsx";
+import Main from "../components/Main/Main";
+import Container from "react-bootstrap/Container";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <Header />
-      <Main />
+      <Container>
+        <Main />
+      </Container>
       <Footer />
-    </div>
+    </>
   );
 };
 
