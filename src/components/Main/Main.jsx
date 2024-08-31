@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
 import Col from "react-bootstrap/Col";
 import { useState } from "react";
+import "./main.css";
 
 const Main = ({ item }) => {
   const { brand, model, fuel, gear, img, insurance, year, info, price } = item;
@@ -21,7 +22,7 @@ const Main = ({ item }) => {
       xl={3}
       className="d-flex justify-content-center align-items-center"
     >
-      <Card style={{ width: "18rem" }}>
+      <Card className="myCard">
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{brand}</Card.Title>
@@ -29,7 +30,7 @@ const Main = ({ item }) => {
           <Card.Text>{info}</Card.Text>
           <h6>{price}</h6>
           <>
-            <Button variant="primary" onClick={handleShow}>
+            <Button variant="warning" onClick={handleShow}>
               Detaylı Bilgi
             </Button>
 
@@ -39,7 +40,7 @@ const Main = ({ item }) => {
                   {brand} {model}
                 </Modal.Title>
               </Modal.Header>
-              <Modal.Body>
+              <Modal.Body className="car-info">
                 <p>Yakıt Türü: {fuel}</p>
                 <p>Vites: {gear}</p>
                 <p>Kasko: {insurance}</p>
