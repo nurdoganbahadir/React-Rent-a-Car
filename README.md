@@ -1,4 +1,4 @@
-# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Todo App Project with React.
+# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Rent a Car Project with React.
 
 In this project, we can display the vehicle data we pull from the data. The user can see the vehicle information on the ui and access detailed information. If desired, the user can search the data.
 
